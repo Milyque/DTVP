@@ -1,0 +1,86 @@
+body{
+	padding: 0px;
+	margin: 0px;
+}
+
+h1{
+	color: white;
+	background: green;
+	margin-top: 0px;
+	padding: 20px;
+	text-align: center;
+}
+.main{
+	width: 90%;
+	margin: 10px auto;
+	text-align: center;
+	padding: 10px;
+}
+h3{
+	color: white;
+	margin: 5px auto;
+	background: #aaa;
+	width: 80%;
+	padding: 10px;
+	border-radius: 10px 10px 0px 0px;
+}
+
+.slide-show{
+	width: 80%;
+	padding: 10px;
+	margin: 10px auto;
+	height: 300px;
+	animation: 30s slide infinite;
+	background: url('../images/car7.jpg') 0% 100%;
+	background-size: cover;
+	border: 1px solid black;
+}
+
+.btn{
+	background: green;
+	color: white;
+	border: 1px solid green;
+	padding: 5px;
+	text-decoration: none;
+	border-radius: 7px;
+	margin-top: 50px;
+}
+.btn:hover{
+	background: white;
+	color: green;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes slide{
+	20%{
+		background: url('../images/car1.jpg') 100% 100%;
+		background-size: cover;
+	}
+	40%{
+		background: url('../images/car2.jpg') 100% 0%;
+		background-size: cover;
+	}
+	60%{
+		background: url('../images/car3.jpg') 100% 100%;
+		background-size: cover;
+	}
+	80%{
+		background: url('../images/car4.jpg') 0% 100%;
+		background-size: cover;
+	}
+	100%{
+		background: url('../images/car5.jpg') 100% 0%;
+		background-size: cover;
+	}
+}

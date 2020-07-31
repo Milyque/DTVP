@@ -1,0 +1,38 @@
+.main{
+	width: 90%;
+	margin: 20px auto;
+	text-align: center;
+}
+.option a button{
+	width: 30%;
+	padding: 10px;
+	height: 200px;
+	background-color: steelblue;
+	color: white;
+	font-size: 120%;
+	margin: 20px;
+	border-radius: 10px;
+}
+.option a button:hover{
+	cursor: pointer;
+}
+table{
+	border-collapse: collapse;
+	width: 60%;
+	margin: 20px auto;
+	/*text-transform: up;*/
+}
+
+.add-veh{
+	width: 50%;
+	margin: 20px auto;
+	padding: 10px;
+	border-radius: 10px;
+	border: 1px solid steelblue;
+}
+.inputs{
+	width: 80%;
+	padding: 5px;
+	margin: 3px;
+	text-transform: uppercase;
+}

@@ -1,0 +1,82 @@
+body{
+	padding: 0px;
+	margin: 0px;
+}
+header{
+	background: green;
+	padding: 10px;
+	position: relative;
+}
+.logo{
+	margin-left: 20px;
+}
+
+h3 .circle{
+	color: darkorange;
+	padding:5px;
+	background: #aaa;
+	border-radius: 50%;
+}
+
+h3{
+	color: white;
+	font-size: 28px;
+
+}
+nav{
+	position: absolute;
+	right: 30px;
+	top: 20%;
+}
+nav ul li{
+	float:left;
+	list-style: none;
+	margin: 10px;
+}
+nav ul li a{
+	text-decoration: none;
+	font-size: 22px;
+	color: white;
+}
+nav ul li a:hover{
+	color: #ccc;
+}
+.container{
+	width: 90%;
+	margin: 30px auto;
+	text-align: center;
+	padding: 10px;
+}
+.sub-email{
+	width: 35%;
+	padding: 10px;
+	margin: 10px auto;
+	border: 1px solid black;
+	background: #ddd;
+	border-radius: 10px;
+}
+.input{
+	margin-top: 30px;
+	background: #ddd;
+	border:none;
+	width: 70%;
+	border-bottom: 1px solid black;
+	margin: 5px;
+	padding:5px;
+}
+
+.btn{
+	background: green;
+	color: white;
+	border: 1px solid green;
+	padding: 5px;
+	text-decoration: none;
+	border-radius: 7px;
+	border: 1px solid green;
+	margin-top: 20px;
+}
+.btn:hover{
+	background: white;
+	color: green;
+
+}
